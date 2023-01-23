@@ -6,7 +6,7 @@ import css from './Searchbar.module.css';
 export default class Searchbar extends Component {
 
     static propTypes = {
-    onSubmit: PropTypes.func,
+    onSubmit: PropTypes.func.isRequired,
     }
     
       state = {
